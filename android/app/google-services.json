@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "622138328729",
+    "project_id": "ordinarioprogramacion-9055b",
+    "storage_bucket": "ordinarioprogramacion-9055b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622138328729:android:15cf73c70d39688a725a08",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622138328729-64gfgia6i1hj2p5td4l75ong1md762jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyfJ89_gWC3QW7WsRXaU2jZd8wQ5eK9D4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622138328729-64gfgia6i1hj2p5td4l75ong1md762jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
