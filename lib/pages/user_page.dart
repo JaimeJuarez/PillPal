@@ -3,7 +3,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/edit_user.dart';
-import 'package:flutter_application_1/pages/inventary_page.dart';
 import 'package:flutter_application_1/pages/login_page.dart';
 import 'package:flutter_application_1/pages/register_user.dart';
 import 'package:flutter_application_1/services/firebase_service.dart';
@@ -24,7 +23,6 @@ class _UserPageState extends State<UserPage> {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
   final List<Widget> _paginas = <Widget>[
     const PaginaUsers(),
-    const InventaryPage(),
   ];
   @override
   Widget build(context) {

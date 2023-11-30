@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_1/blocks/provider.dart';
 import 'package:flutter_application_1/objects/cart_model.dart';
-import 'package:flutter_application_1/pages/edit_inventary.dart';
 import 'package:flutter_application_1/pages/edit_user.dart';
 import 'package:flutter_application_1/pages/login_page.dart';
 import 'package:flutter_application_1/pages/pastillas.dart';
@@ -17,7 +16,6 @@ import 'package:flutter_application_1/pages/register_cronicaldisease.dart';
 import 'package:provider/provider.dart';
 
 import '../firebase_options.dart';
-import '../pages/registrer_inventary.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -56,8 +54,6 @@ class _MyAppState extends State<MyApp> {
           routes: {
             LoginPage.id: (_) => const LoginPage(),
             RegisterUser.id: (_) => const RegisterUser(),
-            RegisterInventary.id: (_) => const RegisterInventary(),
-            EditInventary.id: (_) => const EditInventary(),
             EditUser.id: (_) => const EditUser(),
             Tratamientos.id: (_) => const Tratamientos(),
             EditMedicine.id: (_) => const EditMedicine(),
